@@ -29,7 +29,7 @@ nav li {
     width: 100px;
 }
 
-@media (min-height:350px) {
+@media (min-height:550px) {
 
     nav a{
         color: white;

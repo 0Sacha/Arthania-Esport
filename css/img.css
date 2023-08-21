@@ -6,7 +6,7 @@ img {
     margin-top: -15px;
 }
 
-@media (min-height:350px) {
+@media (max-width:590px) {
     img {
         display: none;
     }

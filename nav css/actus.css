@@ -1,0 +1,32 @@
+.actu {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.Qui_sommes_nous:hover {
+    color: #b780eb;
+}
+
+.Qui_sommes_nous:hover {
+    transition: 0.2s ease-in-out;
+}
+
+.Home:hover {
+    color: #b780eb;
+}
+
+.Home:hover {
+    transition: 0.2s ease-in-out;
+}
+
+body {
+    height: 1000px;
+    background: #8a2be2;
+    background: linear-gradient(180deg, rgba(0,13,16,1) 0%, rgba(96,4,190,1) 50%, #fff 100%);
+    background-repeat: no-repeat;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}

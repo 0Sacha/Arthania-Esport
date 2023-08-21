@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container
+{
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #8a2be2;
+    background: linear-gradient(180deg, rgba(0,13,16,1) 0%, rgba(96,4,190,1) 100%);
+    margin-top: 50px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 3000px;
+    flex-wrap: wrap;
+    z-index: 1;
+    
+}
+
+
+
+.container .card 
+{
+    position: relative;
+    width:280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(0, 0,0, 0.5);
+    border-radius: 15px;
+    background: rgb(255, 255, 255, 0.1 );
+    overflow: hidden;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-top: 1px solid rgb(255, 255, 255, 0.5 ); 
+    border-left: 1px solid rgb(255, 255, 255, 0.5 ); 
+    backdrop-filter: blur(5px) ;
+}
+
+.container .card .content
+{
+background: transparent;
+    padding: 20%;
+    text-align: center;
+    /* transform: translateY(100px);
+    opacity: 0; */
+    transition: 0.5s;
+}
+
+.container .card:hover .content
+{
+    transform: translateY(0px);
+    opacity: 1;
+}   
+
+.container .card .content h3 
+{
+background: transparent;
+    margin-top: 15px;
+    font-size: 1.8rem;
+    color: #fff; 
+    z-index: 1;  
+}
+
+.container .card .content p
+{    
+    background: transparent;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .card .content p span {
+    font-weight: bold;
+    background: transparent;
+}
+
+
+.container .card img {
+
+}
+
+.container .card:hover img 
+{
+    transform: translateY(0px);
+    display: none;
+    transition: 0.5s;
+}
+
+/* actus card -actus */
+
+.container-actus
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 3000px;
+    flex-wrap: wrap;
+    z-index: 1;
+    
+}
+
+
+
+.container-actus .card-actus 
+{
+    position: relative;
+    width: 550px;
+    height: 150px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(0, 0,0, 0.5);
+    border-radius: 15px;
+    background: rgb(255, 255, 255, 0.1 );
+    overflow: hidden;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-top: 1px solid rgb(255, 255, 255, 0.5 ); 
+    border-left: 1px solid rgb(255, 255, 255, 0.5 ); 
+    backdrop-filter: blur(5px) ;
+}
+
+.container-actus .card-actus .content-actus
+{
+background: transparent;
+    padding: 20%;
+    text-align: center;
+    /* transform: translateY(100px);
+    opacity: 0; */
+    transition: 0.5s;
+}
+
+.container-actus .card-actus:hover .content-actus
+{
+    transform: translateY(0px);
+    opacity: 1;
+}   
+
+.container-actus .card-actus .content-actus h3 
+{
+background: transparent;
+    margin-top: 15px;
+    font-size: 26px;
+    color: #fff; 
+    z-index: 1;  
+}
+
+.container-actus .card-actus .content-actus p
+{
+    
+background: transparent;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    pointer-events: none;
+}
+
+.container-actus .card-actus .content-actus p span {
+    font-weight: bold;
+    background: transparent;
+}
+
+
+.container-actus .card-actus img {
+
+}
+
+.container-actus .card-actus:hover img 
+{
+    transform: translateY(0px);
+    display: none;
+    transition: 0.5s;
+}

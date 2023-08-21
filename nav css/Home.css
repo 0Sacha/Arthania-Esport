@@ -1,0 +1,20 @@
+.Home {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.Qui_sommes_nous:hover {
+    color: #b780eb;
+}
+
+.Qui_sommes_nous:hover {
+    transition: 0.2s ease-in-out;
+}
+
+.actu:hover {
+    color: #b780eb;
+}
+
+.actu:hover {
+    transition: 0.2s ease-in-out;
+}

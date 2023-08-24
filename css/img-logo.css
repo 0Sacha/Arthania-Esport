@@ -1,13 +1,38 @@
 .logo {
     position: absolute;
-    height: 50px;
-    width:  50px;
-    margin-left:10px;
+    width:  198px;
+    margin-left:15px;
     margin-top: -15px;
 }
 
-@media (max-width:510px) {
-    img {
-        display: none;
+
+@media (max-width:730px) {
+    .logo {
+        opacity: 0;
+        transition: all 0.25s ease;
     }
 }
+
+.logo-mobile {
+    position: absolute;
+    width:  65px;
+    margin-left:15px;
+    margin-top: -15px;
+    display: none;
+
+}
+
+@media (max-width:710px) {
+    .logo-mobile {
+        display: flex;
+        transition: all 0.25s ease;
+    }
+}
+
+@media (max-width:510px) {
+    .logo-mobile {
+        display: none;
+        transition: all 0.25s ease;
+    }
+}
+

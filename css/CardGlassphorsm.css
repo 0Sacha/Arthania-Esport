@@ -174,3 +174,91 @@ background: transparent;
     display: none;
     transition: 0.5s;
 }
+
+/* actus card -index */
+
+.container-index
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 3000px;
+    flex-wrap: wrap;
+    z-index: 1;
+    
+}
+
+
+
+.container-index .card-index 
+{
+    position: relative;
+    width: 550px;
+    height: 450px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgb(0, 0,0, 0.5);
+    border-radius: 15px;
+    background: rgb(255, 255, 255, 0.1 );
+    overflow: hidden;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-top: 1px solid rgb(255, 255, 255, 0.5 ); 
+    border-left: 1px solid rgb(255, 255, 255, 0.5 ); 
+    backdrop-filter: blur(5px) ;
+}
+
+.container-index .card-index .content-index
+{
+background: transparent;
+    padding: 20%;
+    text-align: center;
+    /* transform: translateY(100px);
+    opacity: 0; */
+    transition: 0.5s;
+}
+
+.container-index .card-index:hover .content-index
+{
+    transform: translateY(0px);
+    opacity: 1;
+}   
+
+.container-index .card-index .content-index h3 
+{
+background: transparent;
+    margin-top: 15px;
+    font-size: 26px;
+    color: #fff; 
+    z-index: 1;  
+}
+
+.container-index .card-index .content-index p
+{
+    
+background: transparent;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    pointer-events: none;
+}
+
+.container-index .card-index .content-index p span {
+    font-weight: bold;
+    background: transparent;
+}
+
+
+.container-index .card-index img {
+
+}
+
+.container-index .card-index:hover img 
+{
+    transform: translateY(0px);
+    display: none;
+    transition: 0.5s;
+}

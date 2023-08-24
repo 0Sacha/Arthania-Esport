@@ -12,14 +12,14 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     background-color: #00000000;
     transition: background-color 0.6s ease;
 }
@@ -77,5 +77,14 @@
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
-    text-align: center;    
 }   
+
+
+.custom-slider img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+}
